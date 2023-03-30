@@ -40,8 +40,6 @@ try:
 except URLError as e:
   streamlit.error()                  
 
-streamlit.stop()
-
 streamlit.header("The fruit load list contains:")
 #sf
 def get_fruit_load_list():
